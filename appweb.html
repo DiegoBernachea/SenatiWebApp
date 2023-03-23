@@ -1,0 +1,224 @@
+<html>
+<head>
+  <title>PRUEBA DE BITBUCKET</title>
+</head>
+<body style="background-color: rgb(156, 241, 59) ;">
+  <style>
+    :root {
+      --color-segundo: rgb(0, 2, 128);
+    }
+    td{
+      font-size: 25px;
+      padding: 5px 50px;
+      color: white;
+      background-color: black;
+      
+      
+    }
+    th{
+      font-size: 25px;
+      padding: 5px 50px;
+      
+    }
+    marquee{
+      font-size: 60px;
+      color: white;
+      font-family: "Franklin Gothic"; 
+      padding: 10px 0px;
+    }
+    h2{
+      font-weight: bold;
+      font-family: Arial;
+      background-color: black;
+      border-radius: 20px;
+    
+      color: white;
+      padding-left: 10px;
+      padding: 10px;
+    }
+    .posimg{
+      display: inline-block;
+      margin: 7px 5px;
+      width: 500px;
+      
+    }
+    .imgAnimal{
+      height: 300px;
+      width: 500px;
+      transition: transform .2s;
+
+    }
+    .imgAnimal:hover{
+      transform: scale(0.95);
+      
+    }
+      
+    .contImagenes{
+      display:block;
+      text-align: center;
+      /*border: solid 5px black;*/
+      margin: 0px 161px;
+      padding: 10px;
+      border-radius: 60px;
+      background-color: var(--color-segundo);
+
+    }
+    .contAnimales{
+      display:block;
+      text-align: center;
+      /*border: solid 10px white;*/
+
+    }
+    .divarcoiris{
+      margin-top: 10px;
+      background: linear-gradient(150deg, rgb(0, 255, 221), rgb(8, 23, 243),rgb(176, 8, 243),rgb(243, 8, 204),rgb(243, 8, 8));
+      background-size: 400% 300%;
+      animation: BgGradient 12s ease infinite;
+    }
+    @keyframes BgGradient{
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+    .pacman{
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background: radial-gradient(#fff01e,rgb(37, 204, 101));
+      background-size: 600% 800%;
+      animation: BgGradient 15s ease infinite;
+      border-radius: 50%;
+      position: relative;
+
+    }
+    .ojo{
+
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      background-color: black;
+      border-radius: 50%;
+      top: 20px;
+      right: 25px;
+
+    }
+    .boca{
+      position: absolute;
+      border-top: 25px solid transparent;
+      border-bottom: 25px solid transparent;
+      border-left: 30px solid transparent;
+      border-right: 45px solid var(--color-segundo);
+      top:25px;
+      right:0px;
+
+    }
+    .ojo2{
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      background-color: black;
+      border-radius: 50%;
+      top: 20px;
+      left: 25px;
+
+    }
+    .boca2{
+      position: absolute;
+      border-top: 25px solid transparent;
+      border-bottom: 25px solid transparent;
+      border-right: 30px solid transparent;
+      border-left: 45px solid var(--color-segundo);
+      top:25px;
+      left:0px;
+
+    }
+  </style>
+  <h1 style=" font-size:60px; text-align: center; font-family: Consolas; color: white; background-color: black; padding: 20px;">TABLA DE EMPLEADOS</h1>
+  <hr>
+  <div style="background-color: var(--color-segundo); padding: 60px; border-bottom: solid 8px rgb(23, 68, 10); border-top: solid 8px rgb(23, 68, 10); text-align: center;">
+    <div style="border: solid 5px black;display: inline-block;">
+      <div class="pacman">
+        <div class="ojo"></div>
+        <div class="boca"></div>
+      </div>
+    </div>
+    <div style="border: solid 5px white; padding: 0%;display: inline-block;">
+        <table style="text-align: center; background-color:  rgb(145, 226, 51); font-family: Consolas;">
+
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Cargo</th>
+            <th>Salario</th>
+          </tr>
+
+          <tr>
+            <td>RR0012</td>
+            <td>Rafael</td>
+            <td>Ramires</td>
+            <td>Arquitecto</td>
+            <td>5500</td>
+          </tr>
+
+          <tr>
+            <td>EC0652</td>
+            <td>Esteban</td>
+            <td>Caceres</td>
+            <td>Gerente</td>
+            <td>8000</td>
+          </tr>
+
+          <tr>
+            <td>RR0031</td>
+            <td>Roberto</td>
+            <td>Rosalez</td>
+            <td>Obrero</td>
+            <td>1500</td>
+          </tr>
+
+          <tr>
+            <td>HC0045</td>
+            <td>Hernesto</td>
+            <td>Casas</td>
+            <td>Arquitecto</td>
+            <td>4500</td>
+          </tr>
+
+          <tr>
+            <td>JF0148</td>
+            <td>Juan</td>
+            <td>Flores</td>
+            <td>Obrero</td>
+            <td>1500</td>
+          </tr>
+
+        </table>
+    </div>
+    <div style="border: solid 5px black;display: inline-block;">
+      <div class="pacman">
+        <div class="ojo2"></div>
+        <div class="boca2"></div>
+      </div>
+    </div>  
+  </div>
+  <div class="divarcoiris">
+    <marquee>.....PRUEBA DE BITBUCKET.....</marquee>
+  </div>
+  <hr>
+  <h2>Imagenes de animales</h2>
+    <div class="contAnimales">
+      <div class="contImagenes">
+        <div class="posimg" style="border-radius: 50px 0 0 0;"><img style="border-radius: 50px 0 0 0;" class="imgAnimal" src="https://www.ngenespanol.com/wp-content/uploads/2018/08/%C2%BFCu%C3%A1nto-puede-vivir-un-le%C3%B3n-1280x720.jpg" alt="leon"></div>
+        <div class="posimg"><img  src="https://atlasanimal.com/wp-content/uploads/2021/02/gorila.jpg" class="imgAnimal" alt="gorila"></div>
+        <div class="posimg" style="border-radius: 0 50px 0 0;"><img style="border-radius: 0 50px 0 0;" class="imgAnimal" src="https://static.wikia.nocookie.net/reinoanimalia/images/4/49/Jirafa_wiki.png/revision/latest?cb=20130303115917&path-prefix=es" alt="jirafa"></div>
+        <div class="posimg"><img  src="https://www.nationalgeographic.com.es/medio/2018/02/27/serpiente__1280x720.png" class="imgAnimal" alt="serpiente"></div>
+        <div class="posimg"><img  src="https://farmhouseguide.com/wp-content/uploads/2020/06/llama-posing-ee220507.jpg" class="imgAnimal" alt="llama"></div>
+        <div class="posimg"><img  src="https://static.nationalgeographic.es/files/styles/image_3200/public/2226.600x450.jpg?w=1600&h=1200" class="imgAnimal" alt="aguila"></div>
+        <div class="posimg" style="border-radius: 0 0 0 50px;"><img style="border-radius: 0 0 0 50px;" class="imgAnimal" src="https://atlasanimal.com/wp-content/uploads/2021/02/lobo.jpg.webp" alt="lobo"></div>
+        <div class="posimg"><img  src="https://imagenes.20minutos.es/files/image_990_v3/uploads/imagenes/2022/02/01/cocodrilo.jpeg" class="imgAnimal" alt="cocodrilo"></div>
+        <div class="posimg" style="border-radius: 0 0 50px 0;"><img style="border-radius: 0 0 50px 0;" class="imgAnimal" src="https://estaticos.muyinteresante.es/uploads/images/gallery/5d9208eb5cafe81a0f3c986a/delfin0_0.jpg" alt="delfin"></div>
+      </div>
+    </div>
+</body>
+</html>
